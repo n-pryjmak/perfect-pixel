@@ -1,0 +1,37 @@
+
+[class|="layout"] {
+	display: none;
+
+	position: absolute;
+	z-index: -1;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+@media ( max-width: 767px ) {
+	.layout-xs {
+		/* Mobile layout */
+		display: block;
+	}
+}
+
+@media ( min-width: 768px ) and ( max-width: 991px ) {
+	.layout-sm {
+		display: block;
+	}
+}
+
+@media ( min-width: 992px ) and ( max-width: 1199px ) {
+	.layout-md {
+		display: block;
+	}
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+	.layout-lg {
+		/* Desktop layout */
+		display: block;
+	}
+}
